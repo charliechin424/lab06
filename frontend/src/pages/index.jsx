@@ -182,7 +182,7 @@ export default function RootLayout() {
 export function RootIndex() {
   return (
     <div className="text">
-      <img max-width="175" style={{position: 'absolute', top: "-400%", left: "-200%"}} src="./photo.jpg" alt = "This is me"/>
+      <img max-width="250" style={{position: 'absolute', top: "-400%", left: "-200%"}} src="./photo.jpg" alt = "This is me"/>
       <h1>Welcome my website!</h1>
     </div>
   );

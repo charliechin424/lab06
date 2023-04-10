@@ -2,6 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import './index.css';
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -180,15 +181,14 @@ export default function RootLayout() {
 
 export function RootIndex() {
   return (
-    <div className="my-16">
-      <div className="flex justify-center my-4">
-        <h1 className="text-4xl block">Welcome</h1>
-      </div>
-      <div className="flex justify-center">
-        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
-          <img src="/vite.svg" className="w-52 logo" />
-        </a>
-      </div>
+    <div className="text">
+      <h1>Welcome!</h1>
+      <ul style={{width: "100%"}}>
+        <li style={{padding: "1%"}}>Name : 金家逸</li>
+        <li style={{padding: "1%"}}>Student ID : B10502076 </li>
+        <li style={{padding: "1%"}}>Department : Sophomore of Electrical Engineering</li>
+        <li style={{padding: "1%"}}>Gender : male</li>
+      </ul>
     </div>
   );
 }

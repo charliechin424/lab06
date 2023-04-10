@@ -33,7 +33,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <div>
-    <img style={{position: 'absolute', top: "25%", left: "20%"}} src="./photo.jpg" alt = "This is me"/>
     <React.StrictMode>
       <RouterProvider router={router} />
     </React.StrictMode>
